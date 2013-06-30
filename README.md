@@ -1,6 +1,19 @@
 # Adopt-a-Light
 This version has been heavily modified to allow reporting on "things". So much so, that I have detached it from the master adopt-a-hydrant branch. This repository is for archival use. If you would like to work with it, go ahead. But the following instructions will not get you there. There have been several scaffolds added, and you will have to add each before it will work.
 
+## New Features
+* Report selectable problem "type" from table
+* Report problem description
+* List number of problems on info window
+* Existing problem list on left sidebar
+* Added "owners" for "things"
+* Resolve problems
+
+## New Scaffolds
+* owners
+* problem-types
+* problems
+
 [![Build Status](https://secure.travis-ci.org/codeforamerica/adopt-a-hydrant.png?branch=master)][travis]
 [![Dependency Status](https://gemnasium.com/codeforamerica/adopt-a-hydrant.png?travis)][gemnasium]
 [![Coverage Status](https://coveralls.io/repos/codeforamerica/adopt-a-hydrant/badge.png?branch=master)][coveralls]
