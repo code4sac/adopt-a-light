@@ -1,5 +1,8 @@
 $(function() {
-  var center = new google.maps.LatLng(42.358431, -71.059773);
+  function kalebClick() {
+    alert('kaleb');
+  }
+  var center = new google.maps.LatLng(38.573602, -121.486301);
   var mapOptions = {
     center: center,
     disableDoubleClickZoom: true,
@@ -7,11 +10,11 @@ $(function() {
     mapTypeControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     maxZoom: 19,
-    minZoom: 15,
+    minZoom: 10,
     panControl: false,
     rotateControl: false,
     scaleControl: false,
-    scrollwheel: false,
+    scrollwheel: true,
     streetViewControl: true,
     zoom: 15,
     zoomControl: true
@@ -20,12 +23,18 @@ $(function() {
   var size = new google.maps.Size(27.0, 37.0);
   var origin = new google.maps.Point(0, 0);
   var anchor = new google.maps.Point(13.0, 18.0);
-  var greenMarkerImage = new google.maps.MarkerImage('<%= image_path 'markers/green.png' %>',
+// Added by Kaleb - Markers
+  var workingMarkerImage = new google.maps.MarkerImage('<%= image_path 'markers/working.png' %>',
     size,
     origin,
     anchor
   );
-  var redMarkerImage = new google.maps.MarkerImage('<%= image_path 'markers/red.png' %>',
+  var brokenMarkerImage = new google.maps.MarkerImage('<%= image_path 'markers/broken.png' %>',
+    size,
+    origin,
+    anchor
+  );
+  var availMarkerImage = new google.maps.MarkerImage('<%= image_path 'markers/available.png' %>',
     size,
     origin,
     anchor
@@ -35,30 +44,63 @@ $(function() {
     origin,
     anchor
   );
+// End Markers --
   var activeThingId;
   var activeMarker;
   var activeInfoWindow;
   var isWindowOpen = false;
   var thingIds = [];
-  function addMarker(thingId, point, color) {
+  var allMarkers = [];
+  function addMarker(thingId, point, stat) {
+// Added by kaleb - new marker logic
+    if(stat === 'working') {
+      var image = workingMarkerImage;
+    } else if(stat === 'broken') {
+      var image = brokenMarkerImage;
+    } else if(stat === 'avail') {
+      var image = availMarkerImage;
+    }
+/* Marker logic removed by kaleb
     if(color === 'green') {
       var image = greenMarkerImage;
     } else if(color === 'red') {
       var image = redMarkerImage;
     }
+*/
     var marker = new google.maps.Marker({
       animation: google.maps.Animation.DROP,
+      draggable: false, // Set only if admin?
       icon: image,
       map: map,
       position: point,
       shadow: markerShadowImage
     });
+    // Kaleb Test -------------------------------------------------
+    google.maps.event.addListener(marker, 'drag', function(event) {
+      var lat = this.position.lat();
+    });
+    google.maps.event.addListener(marker, 'dragend', function(event) {
+      var lat = this.position.lat();
+      var lng = this.position.lng();
+      $.ajax({
+        type: 'PUT',
+        url: '/things.json',
+        data: {
+          'id': thingId,
+          'lat': lat,
+          'lng': lng
+        },
+        success: function(data) {
+        }
+      });
+    });
+    // end kaleb test
     google.maps.event.addListener(marker, 'click', function() {
       if(activeInfoWindow) {
         activeInfoWindow.close();
       }
       var infoWindow = new google.maps.InfoWindow({
-        maxWidth: 210
+        maxWidth: 230
       });
       google.maps.event.addListener(infoWindow, 'closeclick', function() {
         isWindowOpen = false;
@@ -83,6 +125,7 @@ $(function() {
       });
     });
     thingIds.push(thingId);
+    allMarkers.push(marker);
   }
   function addMarkersAround(lat, lng) {
     var submitButton = $("#address_form input[type='submit']");
@@ -116,12 +159,27 @@ $(function() {
             }
             setTimeout(function() {
               var point = new google.maps.LatLng(thing.lat, thing.lng);
+              // Added by kaleb - Marker stuff
+              var stat = null;
+              if(thing.user_id) {
+                if(thing.problem_count > 0) {
+                  stat = 'broken';
+                } else {
+                  stat = 'working';
+                }
+              } else {
+                stat = 'avail';
+              }
+              addMarker(thing.id, point, stat);
+              // End maker stuff
+/* Removed by kaleb - marker stuff
               if(thing.user_id) {
                 var color = 'green';
               } else {
                 var color = 'red';
               }
               addMarker(thing.id, point, color);
+*/
             }, i * 100);
           });
         }
@@ -406,7 +464,7 @@ $(function() {
             activeInfoWindow.close();
             activeInfoWindow.setContent(data);
             activeInfoWindow.open(map, activeMarker);
-            activeMarker.setIcon(greenMarkerImage);
+            activeMarker.setIcon(workingMarkerImage);
             activeMarker.setAnimation(google.maps.Animation.BOUNCE);
           }
         });
@@ -449,7 +507,7 @@ $(function() {
               activeInfoWindow.close();
               activeInfoWindow.setContent(data);
               activeInfoWindow.open(map, activeMarker);
-              activeMarker.setIcon(redMarkerImage);
+              activeMarker.setIcon(availMarkerImage);
               activeMarker.setAnimation(null);
             }
           });
@@ -458,6 +516,100 @@ $(function() {
     }
     return false;
   });
+  // Added by kaleb
+  $('#show_details_link').live('click', function() {
+    var lat = $(this).attr('lat');
+    var lng = $(this).attr('lng');
+    var windowId = $(this).attr('windowId');
+    $('.ui-dialog-content').dialog("close");
+
+    var newLatLng = new google.maps.LatLng(lat, lng);
+    map.setZoom(18);
+    map.panTo(newLatLng);
+    setTimeout(function() {
+      jQuery.each(allMarkers, function(index, item) {
+        item.setAnimation(null);
+        var pos = item.getPosition();
+        var mLat = pos.lat().toString();
+        var mLng = pos.lng().toString();
+        if(mLat == lat) {
+          map.setZoom(18);
+          map.panTo(item.position);
+          item.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      })
+    }, 1000)
+    $('#probDetailWindow-'+windowId).dialog({
+      width: 600,
+      position: {
+        my: 'top',
+        at: 'right',
+        of: $('#content')
+      }
+    });
+    return false;
+  });
+  $('#resolve_problem_link').live('click', function() {
+    var lat = $(this).attr('lat');
+    var lng = $(this).attr('lng');
+    var auth_token = $(this).attr('auth_token');
+    var windowId = $(this).attr('windowId');
+    var problemId = $(this).attr('problem_id');
+    $.ajax({
+      type: 'PUT',
+      url: '/problems.json',
+      data: {
+        'utf8': '✓',
+        'authenticity_token': auth_token,
+        'problem': {
+          'resolved': true,
+          'problem_id': problemId 
+         }
+      },
+      error: function(jqXHR) {
+        alert(jqXHR);
+      },
+      success: function(data) {
+        $('#row-'+windowId).css('display', 'none');
+        $('.ui-dialog-content').dialog("close");
+        //map.setZoom(14);
+        //map.panTo(center);
+        jQuery.each(allMarkers, function(index, item) {
+          var pos = item.getPosition();
+          var mLat = pos.lat().toString();
+          var mLng = pos.lng().toString();
+          if(mLat == lat) {
+            item.setAnimation(null);
+            item.setIcon(workingMarkerImage)
+          }
+        })
+      }
+    });
+  });
+  $('#show_problems_link').live('click', function() {
+    var link = $(this);
+    var state = $(link).attr('state');
+    if(state == 'closed') {
+      $(link).attr('state', 'open');
+      $(link).html("Close Problem List");
+      $.ajax({
+        type: 'GET',
+        url: '/workers/index',
+        error: function(jqXHR) {
+          $(link).removeClass('disabled');
+        },
+        success: function(data) {
+          $('#content').append(data);
+        }
+      });
+    } else if(state == 'open') {
+      $(link).attr('state', 'closed');
+      $(link).html('Show Existing Problems');
+      $('#container').remove();
+    }
+    return false;
+  });
+  // End by kaleb
   $('#edit_profile_link').live('click', function() {
     var link = $(this);
     $(link).addClass('disabled');
@@ -654,6 +806,50 @@ $(function() {
     });
     return false;
   });
+// Added by Kaleb - problem form.
+  $('#problem_form').live('submit', function() {
+    var submitButton = $("#problem_form input[type='submit']");
+    $(submitButton).attr("disabled", true);
+    $.ajax({
+      type: 'POST',
+      url: '/problems.json',
+      data: {
+        'utf8': '✓',
+        'authenticity_token': $('#problem_form input[name="authenticity_token"]').val(),
+        'problem': {
+          'to_user_id': $('#problem_to_user_id').val(),
+          'from_user_id': $('#from_user_id').val(),
+          'problem_desc': $('#problem_desc').val(),
+          'problem_type_id': $('#problem_type_id').val(),
+          'resolved': $('#resolved').val(),
+          'thing_id': activeThingId
+        }
+      },
+      error: function(jqXHR) {
+        $(submitButton).attr("disabled", false);
+      },
+      success: function(data) {
+        $.ajax({
+          type: 'GET',
+          url: '/info_window',
+          data: {
+            'thing_id': activeThingId,
+            'flash': {
+              'notice': "<%= I18n.t("notices.problem_sent") %>"
+            }
+          },
+          success: function(data) {
+            activeInfoWindow.close();
+            activeInfoWindow.setContent(data);
+            activeMarker.setIcon(brokenMarkerImage); // Added by kaleb to update when broken.
+            activeInfoWindow.open(map, activeMarker);
+          }
+        });
+      }
+    });
+    return false;
+  });
+// End problem form
   $('#reminder_form').live('submit', function() {
     var submitButton = $("#reminder_form input[type='submit']");
     $(submitButton).attr("disabled", true);

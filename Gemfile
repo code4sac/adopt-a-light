@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
 
 gem 'rails', '~> 3.2'
 
@@ -12,6 +11,7 @@ gem 'pg'
 gem 'rails_admin'
 gem 'strong_parameters'
 gem 'validates_formatting_of'
+gem 'ruby-gmail'
 
 platforms :ruby_18 do
   gem 'fastercsv'
