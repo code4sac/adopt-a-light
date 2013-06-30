@@ -1,0 +1,67 @@
+%link{:href => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/themes/ui-lightness/jquery-ui.css", :rel => "stylesheet", :type => "text/css"}
+:javascript
+  function togDetails(id) {
+      $('#'+id).dialog();
+  }
+  function resolveProblem(id, row_id) {
+    $.ajax({
+      type: 'PUT',
+      url: '/problems.json',
+      data: {
+        'utf8': '✓',
+        'authenticity_token': $('#problem_form input[name="authenticity_token"]').val(),
+        'problem': {
+          'resolved': true,
+          'problem_id': id
+         }
+      },
+      error: function(jqXHR) {
+        alert(jqXHR);
+      },
+      success: function(data) {
+        $('#row-'+row_id).css('display', 'none');
+      }
+    });
+  }
+%h2 All Reported Problems
+#container{:style => "border: 1px solid #000;"}
+  -@problems = Problem.all(:conditions => { :resolved => '0' })
+  %table{:border => '1', :style => "cell-padding: 3px;"}
+    %th= t("headers.time_reported")
+    %th= t("headers.reporter_name")
+    %th= t("headers.thing_name (id)")
+    %th= t("headers.problem_type")
+    %th{:width => 300}= t("headers.issue")
+    %th= 'tools'
+    -@i = 0;
+    -@problems.each do |row|
+      -@i = @i + 1
+      %tr{:id => "row-"+@i.to_s}
+        %td= row.created_at
+        -@user = User.find(row.from_user_id)
+        -@thing = Thing.find(row.thing_id)
+        -@probType = ProblemType.find(row.problem_type_id)
+        -logger.debug @user
+        %td= link_to(@user.name, "/admin/user/" + @user.id.to_s)
+        %td= link_to(@thing.name + " ("+@thing.id.to_s+")", "/admin/thing/" + @thing.id.to_s)
+        %td= @probType.name
+        %td= row.problem_desc
+        %td 
+          =button_to_function("Details", "togDetails('view-"+@i.to_s+"');", :class => "buttonGrey")
+          =button_to_function("Resolve", "resolveProblem('"+row.id.to_s+"', '"+@i.to_s+"');", :class => "buttonGrey")
+      %tr{:id => 'view-'+@i.to_s, :style => 'display: none', :colspan => 6}
+        %td{:colspan => 5}
+          %table{:border => '1', :width => '100%'}
+            -if(@thing.owner_id > 0)
+              -@owner = Owner.find(@thing.owner_id, :conditions => [])
+              %tr
+                %th{:colspan => 2}= "Owner Information"
+              %tr
+                %td= "Name"
+                %td= @owner.name
+              %tr
+                %td= "Orgainization"
+                %td= @owner.orgainization
+            -else
+              %tr
+                %td= "N/A"

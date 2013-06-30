@@ -1,0 +1,64 @@
+%link{:href => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.8/themes/ui-lightness/jquery-ui.css", :rel => "stylesheet", :type => "text/css"}
+:javascript
+  function closeProblems() {
+    $('#container').remove();
+  }
+#container{:style => "width: 250px"}
+  %h3 All Reported Problems
+  -#=button_to_function("Close Problems Form", "closeProblems();", :class => "buttonGrey")
+  -@problems = Problem.all(:conditions => { :resolved => '0' })
+  %table{:style => "cell-padding: 3px; width: 100%; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC;"}
+    -#%th= t("headers.time_reported")
+    -#%th= t("headers.reporter_name")
+    -#%th= t("headers.thing_name (id)")
+    -#%th= t("headers.problem_type")
+    -#%th{:width => 300}= t("headers.issue")
+    -#%th= 'tools'
+    -@i = 0;
+    -@problems.each do |row|
+      -@i = @i + 1
+      %tr{:id => "row-"+@i.to_s}
+        -@user = User.find(row.from_user_id)
+        -@thing = Thing.find(row.thing_id)
+        -@probType = ProblemType.find(row.problem_type_id)
+        %td= @probType.name
+        %td 
+          %a{:href => "#" ,  :id => "show_details_link", :lat => @thing.lat, :lng => @thing.lng, :windowId => @i.to_s}
+            = "Show Details"
+      %tr{:id => 'probDetailWindow-'+@i.to_s, :style => 'display: none', :colspan => 6, :title => "Problem Details"}
+        %td{:colspan => 5}
+          %table{:width => '100%'}
+            %tr{:colspan => 2}
+              %a{:href => "#" ,  :id => "resolve_problem_link", :lat => @thing.lat, :lng => @thing.lng, :problem_id => row.id.to_s, :windowId => @i.to_s, :auth_token => form_authenticity_token}
+                = "Resolve"
+            -if(@thing.owner_id != nil)
+              -@owner = Owner.find(@thing.owner_id, :conditions => [])
+              %tr
+                %th{:colspan => 2}= "Owner Information"
+              %tr
+                %th= "Name"
+                %td= @owner.name
+              %tr
+                %th= "Orgainization"
+                %td= @owner.orgainization
+              %tr
+                %th= "Phone Number"
+                %td= @owner.voice_number
+              %tr
+                %th= "Email Address"
+                %td= @owner.email
+            -else
+              %tr
+                %td= "No Owner Associated"
+            %tr
+              %th{:colspan => 2}= "Problem Details"
+            %tr
+              %th= "Problem Type"
+              %td= @probType.name
+            %tr
+              %th= "Problem Desc"
+              %td= row.problem_desc
+            %tr
+              %th= "Reported On"
+              %td= row.created_at
+  %hr

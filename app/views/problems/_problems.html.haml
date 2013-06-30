@@ -1,0 +1,22 @@
+-#@problem_count = Problem.count(:thing_id,  :conditions => { :thing_id => @thing.id })
+-@problem_count = Problem.where("thing_id = ? AND resolved = '0'", @thing.id).count
+-@problem_types = ProblemType.order("name")
+= form_for :problem, :url => problems_path, :html => {:id => "problem_form", :method => "post"} do |f|
+  = f.hidden_field "from_user_id", :id => "from_user_id", :value => current_user.id
+  = f.hidden_field "thing_id", :value => @thing.id
+  = f.hidden_field "to_user_id", :value => @thing.user_id
+  = f.hidden_field "resolved", :id => "resolved", :value => false
+  %fieldset.control-group
+    %h5
+      = t("labels.problem_pending")
+      = @problem_count
+    = t("labels.problem_type")
+    %select{:name => 'problem_type_id', id: 'problem_type_id'}
+      %option{:value => '--Select Problem--', :selected => 'selected'} --Select Problem--
+      -@problem_types.each do |c|
+        %option{:value=>c.id}
+          = c.name
+    = t("labels.problem_desc")
+    = f.text_area :problem_desc, :id => 'problem_desc', :name => 'problem_desc', :rows => 1
+    = f.submit t("buttons.send_problem"), :class => "btn"
+

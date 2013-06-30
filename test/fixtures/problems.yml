@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  problem_desc: MyString
+  problem_type_id: 1
+  thing_id: 1
+  sent: 1
+  resolved: 1
+  from_user_id: 1
+  to_user_id: 1
+
+two:
+  problem_desc: MyString
+  problem_type_id: 1
+  thing_id: 1
+  sent: 1
+  resolved: 1
+  from_user_id: 1
+  to_user_id: 1

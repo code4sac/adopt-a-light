@@ -4,9 +4,12 @@ class Thing < ActiveRecord::Base
   validates_uniqueness_of :city_id, allow_nil: true
   validates_presence_of :lat, :lng
   belongs_to :user
+  belongs_to :owner
   has_many :reminders
+  has_many :problems
+  attr_writer :issue_count
 
-  def self.find_closest(lat, lng, limit=10)
+  def self.find_closest(lat, lng, limit=50)
     query = <<-SQL
       SELECT *, (3959 * ACOS(COS(RADIANS(?)) * COS(RADIANS(lat)) * COS(RADIANS(lng) - RADIANS(?)) + SIN(RADIANS(?)) * SIN(RADIANS(lat)))) AS distance
       FROM things

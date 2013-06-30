@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Problem desc:</b>
+  <%= @problem.problem_desc %>
+</p>
+
+<p>
+  <b>Problem type:</b>
+  <%= @problem.problem_type_id %>
+</p>
+
+<p>
+  <b>Thing:</b>
+  <%= @problem.thing_id %>
+</p>
+
+<p>
+  <b>Sent:</b>
+  <%= @problem.sent %>
+</p>
+
+<p>
+  <b>Resolved:</b>
+  <%= @problem.resolved %>
+</p>
+
+<p>
+  <b>From user:</b>
+  <%= @problem.from_user_id %>
+</p>
+
+<p>
+  <b>To user:</b>
+  <%= @problem.to_user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_problem_path(@problem) %> |
+<%= link_to 'Back', problems_path %>

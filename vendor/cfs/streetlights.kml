@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Street Lights</name>
+  <description><![CDATA[]]></description>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>3990 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f60e8e9ef:0x1ef410dd67146bdd&amp;q=38.538169,-121.480186&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=ybRmUfnoEeGhiQLEh4HgDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.538180,-121.480146&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>-121.480148,38.538181,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3990 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f60e8e9ef:0x1ef410dd67146bdd&amp;q=38.538136,-121.479981&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=2rVmUeL7KYqSiAL0_4HYBg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.538180,-121.480146&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-121.480148,38.538181,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3914 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f7f5df0cd:0xeea431f6786f681a&amp;q=3914+E+Pacific+Ave+Sacramento,+CA+95820&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=I8FmUY72H6nhiALakIDoBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.539234,-121.480164&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-121.480164,38.539234,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3732 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f86144b43:0xf16bf0b77ff6c001&amp;q=3732+E+Pacific+Ave+Sacramento,+CA+95820&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=K8FmUcSRKsiSiAKa8YEQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.539784,-121.480174&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-121.480171,38.539783,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3991 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0458cadadfd:0x8dd2f95e6cfef6d9&amp;q=38.538289,-121.479753&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=McFmUY7xEOyyiAKOh4GgAQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.538278,-121.479503&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>-121.479500,38.538277,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3968 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f6314f139:0xd5003461f005e622&amp;q=38.538631,-121.479918&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=NsFmUaziNISuiQLjkoCgCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.538579,-121.480153&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>-121.480156,38.538578,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3720 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f89be23b7:0x1666fc970c2dc4c&amp;q=38.540312,-121.479860&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=O8FmUcG9HOGLiALq2YGoAg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.540118,-121.480000&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-121.480003,38.540119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3720 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04f89be23b7:0x1666fc970c2dc4c&amp;q=38.540312,-121.479860&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=O8FmUcG9HOGLiALq2YGoAg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.540118,-121.480000&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>-121.480003,38.540119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3749 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad04578cd9a05:0x3675b81924077686&amp;q=38.539608,-121.479802&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=R8FmUbKMA6StiALisoHoBw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.539554,-121.479524&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-121.479523,38.539555,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>3939 E Pacific Ave</name>
+    <description><![CDATA[Sacramento, CA 95820<br><a href="https://maps.google.com/maps/place?ftid=0x809ad045842b5791:0xcd056750e17895b7&amp;q=38.539015,-121.479794&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=TMFmUfuFMemgiQLfpICgCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.539006,-121.479516&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-121.479515,38.539005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2321 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c3ef358155:0x97fa683b3df6ccd6&amp;q=38.575439,-121.475079&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=HThnUaW6GLC2iAK-uYCYCw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.575491,-121.474987&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-121.475060,38.575367,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>911 20th St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4d7b064fd:0x544279863e42b449&amp;q=38.577369,-121.479487&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=MThnUaC0FrSyiALe4YHIBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577344,-121.479318&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>-121.479576,38.577412,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2000 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c528e67def:0x6a12ea5980b043bd&amp;q=38.577643,-121.479318&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=NjhnUeusJYbIiQKpm4CQDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577650,-121.479326&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-121.479309,38.577682,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2012 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4d9a3f0db:0x6d4e72f28a7da9c5&amp;q=38.577546,-121.478972&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=TThnUfLXNMnjiALz1YG4DQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577329,-121.479028&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-121.478867,38.577568,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>904 21st St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4e79f57bb:0xfd9d70ec3ee041fd&amp;q=38.577252,-121.478195&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=WDhnUaSMHqPniAK0iYHQCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577267,-121.478378&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-121.478226,38.577213,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>950-998 21st St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4ea98df6d:0xf439f84782f11cc1&amp;q=38.576826,-121.478402&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=XjhnUZS5MYmiiQLN2oCgDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576816,-121.478367&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-121.478294,38.576828,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2020 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4c7eebde9:0x79877a1cf35a73b4&amp;q=38.576449,-121.479286&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=ZThnUenQDeqFiAL4nYGACg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576373,-121.479118&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-121.479073,38.576447,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2022 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4bed933cb:0xb3e22cb91704f394&amp;q=38.576234,-121.478718&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=ajhnUea-Ksa2iAKEpoDQCQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576272,-121.478765&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-121.478745,38.576309,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2128 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c497b1bca1:0x490c675fbd960060&amp;q=38.576157,-121.478221&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=ejhnUZ3MM-bgiAL444DwBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576085,-121.478341&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-121.478264,38.576221,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2124 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c49b629b79:0xb804f28c82e778aa&amp;q=38.575969,-121.477699&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=gDhnUe-aFISviAL0koDYDg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.575804,-121.477879&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>-121.477707,38.576073,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1000-1048 22nd St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c481faa89d:0xf7c5eefff38bee68&amp;q=38.575867,-121.477416&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=iThnUY7cFOOSiALH9IDwBg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.575840,-121.477314&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-121.477295,38.575966,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2200 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4806db133:0x11fe659fd5cfdbe1&amp;q=38.575875,-121.477147&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=jzhnUaqHHKLjiALzkYG4CA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.575828,-121.477093&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>-121.477051,38.575901,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2219 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c47880bbd1:0xb3daca9eff32aa04&amp;q=38.575838,-121.476664&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=lThnUY_2K4nOiQKiyoCgBg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.575931,-121.476507&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-121.476608,38.575790,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1900-1912 I St</name>
+    <description><![CDATA[Sacramento, CA 95867<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0daceccb811:0x2afcac90215a7a2f&amp;q=38.578079,-121.480644&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=J5hpUYrmIeOeiAKDwoCoDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.578080,-121.480644&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-121.480606,38.578190,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1600-1608 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0978d24b3:0xa09f9495f4cf32b4&amp;q=38.579098,-121.484664&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=NphpUZb6L4jkiALg6ICIDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579165,-121.484633&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-121.486641,38.579636,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>900-948 Lincoln Hwy</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0ba7b6b4b:0xfab2919662346df0&amp;q=38.579128,-121.484933&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=QZhpUdCIN6GeiQLMooCQBw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579100,-121.484827&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>-121.484909,38.579082,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1500-1598 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cba5da7d:0x6b96585d9cf6e93e&amp;q=38.579205,-121.484996&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=RphpUevcIYeIiAKuyoGwAg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579257,-121.484974&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-121.484962,38.579166,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1500-1598 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cba5da7d:0x6b96585d9cf6e93e&amp;q=38.579326,-121.485225&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=TZhpUdqrNaeLiAL1lICwDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579323,-121.485226&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>-121.485237,38.579250,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1500-1598 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cba5da7d:0x6b96585d9cf6e93e&amp;q=38.579256,-121.485468&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=YZhpUZvdF8OuiAKXu4DYBg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579373,-121.485418&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-121.485428,38.579334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1500-1598 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cba5da7d:0x6b96585d9cf6e93e&amp;q=38.579372,-121.485743&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=ZphpUe6oJYexiQKDsIDYDQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579449,-121.485710&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-121.485695,38.579372,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>900-904 15th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d730daac91:0xaf28d36d2bcf9023&amp;q=38.579418,-121.485997&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=cphpUefSJoquiAKS9IGwCw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579455,-121.486132&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>-121.485954,38.579437,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>900-904 15th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d730daac91:0xaf28d36d2bcf9023&amp;q=38.579386,-121.486060&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=jZhpUY3iFsiciALo8YGIAQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579411,-121.486152&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>-121.486229,38.579475,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>900-904 15th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d730daac91:0xaf28d36d2bcf9023&amp;q=38.579453,-121.486265&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=n5hpUaqDCenliALp84HwDg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579421,-121.486147&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-121.486031,38.579399,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1420-1498 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d721469943:0x27743fcd6a0ff300&amp;q=38.579600,-121.486302&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=pphpUdrNE6P-iQLf4ICYBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579604,-121.486300&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>-121.486183,38.579666,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1420 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d7234b80cd:0xd4a2a74fff6b1928&amp;q=38.579636,-121.486745&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=q5hpUdanEeSKiAKo1ICYAg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579389,-121.486745&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-121.486748,38.579388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1400-1408 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d721469943:0x27743fcd6a0ff300&amp;q=38.579819,-121.487337&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=uphpUb-zAqWMiAKLxYGYDQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579870,-121.487315&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-121.487381,38.579781,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1400-1408 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d721469943:0x27743fcd6a0ff300&amp;q=38.579847,-121.487337&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=v5hpUZi9A4WRiQLO4oCABA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579873,-121.487326&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-121.487289,38.579788,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1331 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d6e4fb6f09:0xb412e1d9d4524646&amp;q=38.580011,-121.487531&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=_5hpUYK-I8aUiAKZ1IHQDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.580137,-121.487607&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-121.487526,38.580029,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>850-898 14th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d6e6ea5fd3:0x3f782b58a4d71438&amp;q=38.580039,-121.487489&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=A5lpUcvVGKmviQLolYCoCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.580011,-121.487385&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-121.487457,38.580051,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>851-899 14th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d6e6ea5fd3:0x3f782b58a4d71439&amp;q=38.579999,-121.487290&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=CJlpUcCdJKaZiQKdvYCYAw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.580014,-121.487345&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-121.487221,38.579948,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>851-899 14th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d6e6ea5fd3:0x3f782b58a4d71439&amp;q=38.580049,-121.487219&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=DZlpUaiqFafeiALJ14GIBA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.580075,-121.487318&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-121.487274,38.580002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1411 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d6dffe3ded:0xb865386da1e39bde&amp;q=38.579817,-121.486782&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=EZlpUfCEEcjmiAKNv4CIDQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579900,-121.487031&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>-121.486969,38.579704,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1431 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d72f2f8f9f:0x95e68ad6456f4c70&amp;q=38.579718,-121.486148&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=IJlpUb3wBMTkiAKxhICYDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579809,-121.486179&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-121.486130,38.579720,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>851-899 15th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d72c21a995:0x4ab8455d404485c2&amp;q=38.579638,-121.485968&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=JJlpUajcOaqUiAKrpoHoDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579648,-121.486008&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>-121.485931,38.579655,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1501-1511 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cba5da7d:0x6b96585d9cf6e93f&amp;q=38.579605,-121.485900&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=KZlpUbwEqa-JAuiVgKgK&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579537,-121.485929&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-121.485886,38.579597,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1511 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cd7ba4b9:0xfd2eb2b9fb87dac6&amp;q=38.579491,-121.485529&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=L5lpUZ7kLsXniAKjv4DwDQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579738,-121.485459&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-121.485489,38.579494,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1521 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0cee8f78f:0x5a1719418ea752c2&amp;q=38.579402,-121.485264&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=NZlpUZWpAcSciQL1_YG4DA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579650,-121.485124&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>-121.485199,38.579403,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1531 I St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d0c61d8d8f:0x444fea7ce8257d4e&amp;q=38.579282,-121.484879&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=PZlpUdb9B-qOiAL_z4HYBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.579586,-121.484890&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-121.484932,38.579334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>850-898 17th St</name>
+    <description><![CDATA[Sacramento, CA 95814<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0d08508bad3:0x474cfafa92cf7de5&amp;q=38.578902,-121.483439&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=QZlpUdi5HqmviQLolYCoCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.578897,-121.483422&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-121.483475,38.578945,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1831 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0dab9201335:0x2ab73f909b57f920&amp;q=38.578255,-121.480867&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=RZlpUZPpOoewiQKChoCICQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.578317,-121.480882&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-121.480873,38.578251,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1901-1999 I St</name>
+    <description><![CDATA[Sacramento, CA 95867<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c52c2eb77d:0x4888d49bb5b11224&amp;q=38.577900,-121.479550&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=S5lpUcbSAcauiQKkkYHgCw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577820,-121.479586&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-121.479584,38.577820,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2005 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c52670d725:0x1858d56334d7752b&amp;q=38.577791,-121.479148&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=T5lpUYDLG-mMiAK3nYCIDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577801,-121.479057&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-121.479065,38.577774,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2021 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4df93ed25:0x56f93dcb90385a3c&amp;q=38.577596,-121.478675&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=VJlpUaG0F-G0iQLl2ID4AQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577617,-121.478573&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-121.478584,38.577637,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2031 I St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4e0548eb7:0x8de18703cce0f4bb&amp;q=38.577530,-121.478241&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=WZlpUdiDC5PLiQK854GgBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577619,-121.478298&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-121.478333,38.577545,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>851-899 21st St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4e24cc019:0xf682bf816b716298&amp;q=38.577496,-121.477973&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=XZlpUYDSLomiiQLN2oCgDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577505,-121.478004&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>-121.477905,38.577461,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>851-899 21st St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4e24cc019:0xf682bf816b716298&amp;q=38.577562,-121.477977&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=YplpUZatBeGeiQLAmoG4CA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.577562,-121.477978&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-121.477913,38.577564,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>I Street J St Alley</name>
+    <description><![CDATA[Sacramento, CA 95816<br>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-121.478188,38.576984,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>951-999 21st St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4ea98df6d:0xf439f84782f11cc0&amp;q=38.576448,-121.478476&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=bZlpUc7NCaWYiQLOxoFo&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576453,-121.478495&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-121.478600,38.576458,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2101 J St</name>
+    <description><![CDATA[Sacramento, CA 95816<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c49494f623:0xd7540472779eb2eb&amp;q=38.576351,-121.478375&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=cZlpUZ4Np5aJAru4gaAP&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576513,-121.478188&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-121.478416,38.576435,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2015 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4c67332af:0x418347e59ca2c2af&amp;q=38.576486,-121.479018&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=dZlpUZ2sG-GhiQLEh4HgDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576601,-121.479091&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-121.479088,38.576599,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2013 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4cf53902f:0x2b8da898d0838d15&amp;q=38.576524,-121.479259&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=eplpUdGdIKmviQLolYCoCg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576604,-121.479206&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>-121.479202,38.576603,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>2001 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4d21d4875:0xe9140cb87eee37c3&amp;q=38.576741,-121.479690&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=f5lpUeuDBeariALa7ICYDw&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576827,-121.479543&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-121.479546,38.576828,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>951-999 20th St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4d36c5fcb:0xb61684a823d1380a&amp;q=38.576777,-121.479808&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=hJlpUZTjDumuiAK0p4DYBQ&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576785,-121.479841&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-121.479736,38.576721,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1951-1999 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0db2e9ded29:0xfde61092c5f7c290&amp;q=38.576814,-121.480073&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=iJlpUaKeM-mdiALynoCwBA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576755,-121.480098&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-121.480034,38.576797,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1950-1998 J St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0db2e9ded29:0xfde61092c5f7c291&amp;q=38.576684,-121.480101&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=jplpUauDIIeWiAKQs4CwDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576721,-121.480085&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-121.480057,38.576710,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1015 20th St</name>
+    <description><![CDATA[Sacramento, CA 95811<br><a href="https://maps.google.com/maps/place?ftid=0x809ad0c4cb1ac18f:0xa66861fb9dceae0b&amp;q=38.576574,-121.479876&amp;cd=1&amp;cad=src:ppiwlink,view:myplaces&amp;ei=kZlpUdjmK6qUiAKrpoHoDA&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.576308,-121.479766&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-121.479805,38.576572,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

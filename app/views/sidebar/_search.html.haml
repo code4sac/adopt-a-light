@@ -1,5 +1,5 @@
 = form_tag "/address", :method => "get", :id => "address_form", :class => "search-form" do
-  = hidden_field_tag "limit", params[:limit] || 10
+  = hidden_field_tag "limit", params[:limit] || 20
   %fieldset.control-group
     = label_tag "city_state", t("labels.city_state"), :id => "city_state_label"
     = select_tag "city_state", "<option value=\"#{t("defaults.city_state")}\" selected=\"selected\">#{t("defaults.city_state")}</option>".html_safe
@@ -10,6 +10,9 @@
     = submit_tag t("buttons.find", :thing => t("defaults.thing").pluralize), :class => "btn btn-primary"
     %a{:href => edit_user_registration_path, :id => "edit_profile_link", :class => "btn"}
       = t("buttons.edit_profile")
+    -if signed_in? && current_user.admin == true
+      %a{:href => edit_user_registration_path , :id => "show_problems_link", :class => "btn", :state => 'closed'}
+        = t("buttons.show_problems") 
     %a{:href => destroy_user_session_path, :id => "sign_out_link", :class => "btn btn-danger"}
       = t("buttons.sign_out")
 :javascript
